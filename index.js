@@ -6,13 +6,13 @@ function nestedTarget(){
   return document.getElementById('nested').querySelector('div.target')
 }
 
-function deepestChild(){
-  return document.getElementById('grand-node').querySelectorAll('div')[3]
-}
-
 function increaseRankBy(n){
   const lis= document.querySelector('ul.ranked-list li')
-  for (let i = 0; i < lis.length; i++){
-    lis[i].innerHTML = (parseInt(lis[i].innerHTML) + 1)
+  for (let i = parseInt(lis[i].innerHTML; i < lis.length; i++){
+    lis[i].innerHTML = i + 1)
   }
+}
+
+function deepestChild(){
+  return document.getElementById('grand-node').querySelectorAll('div')[3]
 }
